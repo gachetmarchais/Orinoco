@@ -5,35 +5,101 @@
     <meta charset="utf-8" />
     <title>Orinoco</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
     <!-- polices à adapter -->
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=DM+Sans:wght@700&family=Dancing+Script:wght@700&family=Devonshire&family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/eur8rme.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <!-- css-->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- icônes -->    
-    <link rel="shortcut icon" href="./images/logo.png" />
+    <!-- icônes -->
+    <link rel="shortcut icon" href="images/logo.png" />
 </head>
 <body id="body">
-    <header id="header">
+    <header id="header" class="media " >
+        <!--bloc 0-->
         <img id="logo" src="images/logo.png" alt="logo chariot de Orinoco" />
-        <h1>Orinoco</h1>
-        <div class="bouton_header">
-            <img id="basket" src="images/basket.png" alt="logo panier"/>
-            <p>Panier</p>
+        <h1 class=" align-self-center">Orinoco</h1>
+        <div class="ml-3  align-self-center">
+            <a href="pages_html/basket.html" class="btn btn-primary">Voir mon Panier</a>
         </div>
     </header>
 
-    <main id="main">
-
+    <main class="card w-75 border border-white" id="main ">
+        <h2>Nos Ours en Peluche</h2>               
+        <ul class="list-unstyled ">
+            <!--bloc 1 Teddie Norbert-->
+            <li class="media  text-white bg-secondary rounded-right rounded-left border border-secondary mb-3 pr-3" id="5be9c8541c9d440000665243">
+                <img class=" mr-3" src="images/teddy_1.jpg" alt="Teddie Norbert">
+                <div class="media-body align-self-center">
+                    <h3 class="mt-0">Norbert</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="ml-3 align-self-center">
+                    <a href="pages_html/product.html" class="btn btn-primary">Voir le Produit</a>
+                </div>
+            </li>
+            <!--bloc 2 Teddie Arnold-->
+            <li class="media  rounded-right rounded-left border border-secondary mb-3 pr-3" id="5beaa8bf1c9d440000a57d94">
+                <img class=" mr-3 " src="images/teddy_2.jpg" alt="Teddie Arnold">
+                <div class="media-body align-self-center">
+                    <h3 class="mt-0">Arnold</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="ml-3 align-self-center ">
+                    <div class="btn btn-primary">Voir le Produit</div>
+                </div>
+            </li>
+            <!--bloc 3 Teddie Lenny and Carl-->
+            <li class="media  text-white bg-secondary rounded-right rounded-left border border-secondary mb-3 pr-3" id="5beaaa8f1c9d440000a57d95">
+                <img class="mr-3" src="images/teddy_3.jpg" alt="Teddie Lenny and Carl">
+                <div class="media-body align-self-center">
+                    <h3 class="mt-0">Lenny and Carl</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="ml-3 align-self-center">
+                    <div class="btn btn-primary">Voir le Produit</div>
+                </div>
+            </li>
+            <!--bloc 4 Teddie Gustav-->
+            <li class="media rounded-right rounded-left border border-secondary mb-3 pr-3" id="5beaaa8f1c9d440000a57d96">
+                <img class=" mr-3" src="images/teddy_4.jpg" alt="Teddie Gustav">
+                <div class="media-body align-self-center">
+                    <h3 class="mt-0">Gustav</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="ml-3 align-self-center">
+                    <div class="btn btn-primary">Voir le Produit</div>
+                </div>
+            </li>
+            <!--bloc 5 Teddie Garfunkel-->
+            <li class="media  text-white bg-secondary rounded-right rounded-left border border-secondary mb-3 pr-3" id="5beaaa8f1c9d440000a57d97">
+                <img class=" mr-3" src="images/teddy_5.jpg" alt="Teddie Garfunkel">
+                <div class="media-body align-self-center">
+                    <h3 class="mt-0">Garfunkel</h3>
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="ml-3 align-self-center">
+                    <div class="btn btn-primary">Voir le Produit</div>
+                </div>
+            </li>
+        </ul>
+               
     </main>
 
     <footer id="footer">
-
     </footer>
 
 
-  <!--  [{"colors":["Tan","Chocolate","Black","White"],"_id":"5be9c8541c9d440000665243","name":"Norbert","price":2900,"imageUrl":"http://localhost:3000/images/teddy_1.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},{"colors":["Pale brown","Dark brown","White"],"_id":"5beaa8bf1c9d440000a57d94","name":"Arnold","price":3900,"imageUrl":"http://localhost:3000/images/teddy_2.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},{"colors":["Brown"],"_id":"5beaaa8f1c9d440000a57d95","name":"Lenny and Carl","price":5900,"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","imageUrl":"http://localhost:3000/images/teddy_3.jpg"},{"colors":["Brown","Blue","Pink"],"_id":"5beaabe91c9d440000a57d96","name":"Gustav","price":4500,"imageUrl":"http://localhost:3000/images/teddy_4.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},{"colors":["Beige","Tan","Chocolate"],"_id":"5beaacd41c9d440000a57d97","name":"Garfunkel","price":5500,"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","imageUrl":"http://localhost:3000/images/teddy_5.jpg"}]  -->
-
+    <!--  [{"colors":["Tan","Chocolate","Black","White"],"_id":"5be9c8541c9d440000665243","name":"Norbert","price":2900,"imageUrl":"http://localhost:3000/images/teddy_1.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+        {"colors":["Pale brown","Dark brown","White""_id":"5beaa8bf1c9d440000a57d94","name":"Arnold","price":3900,"imageUrl":"http://localhost:3000/images/teddy_2.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+        {"colors":["Brown"],"_id":"5beaaa8f1c9d440000a57d95","name":"Lenny and Carl","price":5900,"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","imageUrl":"http://localhost:3000/images/teddy_3.jpg"},
+        {"colors":["Brown","Blue","Pink"],"_id":"5beaabe91c9d440000a57d96","name":"Gustav","price":4500,"imageUrl":"http://localhost:3000/images/teddy_4.jpg","description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."},
+        {"colors":["Beige","Tan","Chocolate"],"_id":"5beaacd41c9d440000a57d97","name":"Garfunkel","price":5500,"description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","imageUrl":"http://localhost:3000/images/teddy_5.jpg"}]  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
